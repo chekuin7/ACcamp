@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T03:12:12.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="9qR0ICuJ7AxUOPyxHzZZ" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-17T03:25:01.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="rS1rQZz3C8N_etrbtXkq" version="14.5.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,29 +11,32 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="猜1~100的中位數&lt;br&gt;--&amp;gt;50" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="225" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="猜1~100的中位數&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 254) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;(max - min) / 2) + min&lt;/div&gt;--&amp;gt;guessnumber=50" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="217.5" y="60" width="135" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="大於答案&lt;br&gt;&amp;gt; answer" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="400" y="270" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BTrlguR_svu-ntT4sJMw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="BTrlguR_svu-ntT4sJMw-0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BTrlguR_svu-ntT4sJMw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="430" as="sourcePoint" />
+            <mxPoint x="452" y="460" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="猜小於50" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="390" y="390" width="120" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="猜小於50&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 254) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;max = guessAnswer - 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="365" y="390" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="小於答案&lt;br&gt;&amp;lt; answer" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="100" y="270" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="猜大於50" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="390" width="120" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="猜大於50&lt;br&gt;min=guessnumber+1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="80" y="390" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BTrlguR_svu-ntT4sJMw-0" value="猜1~49的中位數&lt;br&gt;--&amp;gt;25" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="390" y="460" width="120" height="40" as="geometry" />
+        <mxCell id="BTrlguR_svu-ntT4sJMw-0" value="猜1~49的中位數&lt;br&gt;(49-1)/2+1&lt;br&gt;--&amp;gt;25" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="365" y="455" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BTrlguR_svu-ntT4sJMw-1" value="猜51~100的中位數&lt;br&gt;--&amp;gt;75" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="90" y="460" width="120" height="40" as="geometry" />
+        <mxCell id="BTrlguR_svu-ntT4sJMw-1" value="猜51~100的中位數&lt;br&gt;(max-min)/2+min&lt;br&gt;(100-51)/2+51--&amp;gt;75" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="80" y="450" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BTrlguR_svu-ntT4sJMw-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BTrlguR_svu-ntT4sJMw-28" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -178,59 +181,48 @@
         <mxCell id="BTrlguR_svu-ntT4sJMw-28" value="猜大於50或小於50" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="225" y="170" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BTrlguR_svu-ntT4sJMw-29" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+        <mxCell id="BTrlguR_svu-ntT4sJMw-29" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" source="WIyWlLk6GJQsqaUBKTNV-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="283" y="119" as="sourcePoint" />
+            <mxPoint x="283" y="140" as="sourcePoint" />
             <mxPoint x="283" y="169" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="283" y="169" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BTrlguR_svu-ntT4sJMw-30" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="290" y="60" as="sourcePoint" />
-            <mxPoint x="500" y="100" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="480" y="100" />
+              <mxPoint x="283" y="130" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BTrlguR_svu-ntT4sJMw-31" value="答案是50" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="500" y="80" width="120" height="40" as="geometry" />
+          <mxGeometry x="520" y="75" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BTrlguR_svu-ntT4sJMw-33" value="猜對Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="385" y="80" width="60" height="20" as="geometry" />
+          <mxGeometry x="407" y="77" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BTrlguR_svu-ntT4sJMw-34" value="猜錯No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="280" y="130" width="50" height="20" as="geometry" />
+          <mxGeometry x="290" y="140" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BTrlguR_svu-ntT4sJMw-35" value="答案" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="280" y="930" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gB-Xf9kso1_UNZLl_gFV-3" value="從1~100開始猜" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="225" width="120" height="40" as="geometry" />
+        <mxCell id="gB-Xf9kso1_UNZLl_gFV-3" value="從1~100開始猜&lt;br&gt;min = 1&lt;br&gt;max = 100" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="225" y="-30" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gB-Xf9kso1_UNZLl_gFV-4" value="開始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="225" y="-90" width="120" height="40" as="geometry" />
+          <mxGeometry x="220" y="-120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gB-Xf9kso1_UNZLl_gFV-6" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gB-Xf9kso1_UNZLl_gFV-6" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gB-Xf9kso1_UNZLl_gFV-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="283" as="sourcePoint" />
-            <mxPoint x="283" as="targetPoint" />
+            <mxPoint x="282" y="-50" as="sourcePoint" />
+            <mxPoint x="282" y="-30" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="283" y="-50" />
-              <mxPoint x="283" y="-50" />
+              <mxPoint x="282" y="-80" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gB-Xf9kso1_UNZLl_gFV-9" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gB-Xf9kso1_UNZLl_gFV-9" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gB-Xf9kso1_UNZLl_gFV-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="282" y="40" as="sourcePoint" />
-            <mxPoint x="282" y="80" as="targetPoint" />
+            <mxPoint x="282" y="60" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="282" y="60" />
-              <mxPoint x="282" y="60" />
+              <mxPoint x="282" y="20" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -246,6 +238,12 @@
             <mxPoint x="450" y="350" as="sourcePoint" />
             <mxPoint x="431" y="340" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gB-Xf9kso1_UNZLl_gFV-17" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="BTrlguR_svu-ntT4sJMw-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="120" as="sourcePoint" />
+            <mxPoint x="430" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
